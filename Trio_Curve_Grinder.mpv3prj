@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Version="1" ProductId="400" ProductName="MC400">
+    <Environment>
+        <Software SoftwareVersion="4.1.4.11265" />
+        <Controller ControllerVersion="2.0263" ControllerFPGAVersion="0">
+            <Modules />
+        </Controller>
+    </Environment>
+    <Items>
+        <Item Type="basic" Name="TEST" FileName="TEST.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="textFile" Name="0123" FileName="0123.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="123" FileName="123.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="0456" FileName="0456.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="456" FileName="456.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="0789" FileName="0789.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="789" FileName="789.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="1123" FileName="1123.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="1456" FileName="1456.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="1789" FileName="1789.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="textFile" Name="2123" FileName="2123.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="basic" Name="TXT_INSTREAM" FileName="TXT_INSTREAM.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="basic" Name="GLOBAL_DEFS" FileName="GLOBAL_DEFS.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="basic" Name="THREAD_ENCODE" FileName="THREAD_ENCODE.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="basic" Name="THREAD_MOV" FileName="THREAD_MOV.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="mcConfig" Name="MC_CONFIG" FileName="MC_CONFIG.MCC" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="basic" Name="INI" FileName="INI.BAS" Storage="internalStorage" Autorun="1" IsAutorun="True" EncryptionCRC="0" />
+        <Item Type="basic" Name="THREAD_CONTROL" FileName="THREAD_CONTROL.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="basic" Name="START_UP" FileName="START_UP.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+        <Item Type="textFile" Name="1234" FileName="1234.TXT" Storage="internalStorage" EncryptionCRC="0" />
+        <Item Type="basic" Name="THREAD_CTRL" FileName="THREAD_CTRL.BAS" Storage="internalStorage" Autorun="0" IsAutorun="False" EncryptionCRC="0" />
+    </Items>
+</Project>

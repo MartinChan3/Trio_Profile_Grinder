@@ -1,0 +1,33 @@
+INCLUDE "GLOBAL_DEFS"
+'******************************************
+'Load the txt file
+'OPEN #41 AS "123" FOR INPUT
+'OPEN #41 AS "456" FOR INPUT
+'OPEN #41 AS "789" FOR INPUT
+'OPEN #41 AS "0123" FOR INPUT
+'OPEN #41 AS "0456" FOR INPUT
+'OPEN #41 AS "0789" FOR INPUT
+'OPEN #41 AS "1123" FOR INPUT
+'OPEN #41 AS "1456" FOR INPUT
+'OPEN #41 AS "1789" FOR INPUT
+'OPEN #41 AS "2123" FOR INPUT
+OPEN #41 AS "1234" FOR INPUT
+WA(100)
+
+DIM i AS INTEGER
+DIM k AS INTEGER
+DIM temp_i AS INTEGER
+i=0
+
+WHILE KEY#41
+    GET#41,k
+    temp_i=VR(txt_start_pos)+i
+    TABLE(temp_i,k)
+    i=i+1
+WEND
+CLOSE #41
+
+txt_instream_asc_num=i
+
+'RUN "THREAD_CONTROL",thread_ctrl
+RUN "THREAD_CTRL",thread_ctrl

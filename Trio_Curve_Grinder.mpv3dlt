@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MotionPerfectLayout>
+  <Contents>
+    <Content Name="document_d1f98d8f2582479aa52e0ad487e0d58b">
+      <Program Name="THREAD_ENCODE" Process="-1" />
+    </Content>
+    <Content Name="document_07f05e321f8f4ab99c1bcfcb847f19e5">
+      <Program Name="THREAD_MOV" Process="-1" />
+    </Content>
+    <Content Name="document_7580c0e0b73c4e50ab04582610743b7a">
+      <Program Name="TXT_INSTREAM" Process="-1" />
+    </Content>
+    <Content Name="document_34a5b56fa6d047a18acd003580667305">
+      <Program Name="GLOBAL_DEFS" Process="-1" />
+    </Content>
+    <Content Name="document_1a8ee5e947f94edf83aebe049222ff48">
+      <Program Name="1234" Process="-1" />
+    </Content>
+    <Content Name="document_47a663d8dded4629ae0401b07f32df6e">
+      <Program Name="THREAD_CTRL" Process="-1" />
+    </Content>
+  </Contents>
+  <LayoutRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <RootPanel Orientation="Horizontal">
+      <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="274.4">
+        <LayoutAnchorablePane Id="214114ed-ab51-43cb-b9cc-9fbcdc215f77" DockWidth="274.4" FloatingWidth="300" FloatingHeight="300" FloatingLeft="NaN" FloatingTop="NaN">
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="控制器" IsSelected="True" ContentId="tool_ControllerTreeControl" LastActivationTimeStamp="11/17/2016 20:50:47" />
+        </LayoutAnchorablePane>
+      </LayoutAnchorablePaneGroup>
+      <LayoutPanel Orientation="Horizontal">
+        <LayoutPanel Orientation="Vertical">
+          <LayoutPanel Orientation="Horizontal">
+            <LayoutDocumentPaneGroup Orientation="Horizontal">
+              <LayoutDocumentPane Id="1b971bc6-5bed-4a19-8fea-5278961b723f">
+                <LayoutDocument Title="THREAD_MOV" ContentId="document_07f05e321f8f4ab99c1bcfcb847f19e5" LastActivationTimeStamp="11/17/2016 20:43:24" />
+                <LayoutDocument Title="THREAD_CTRL" IsSelected="True" IsLastFocusedDocument="True" ContentId="document_47a663d8dded4629ae0401b07f32df6e" LastActivationTimeStamp="11/17/2016 20:49:34" />
+                <LayoutDocument Title="GLOBAL_DEFS" ContentId="document_34a5b56fa6d047a18acd003580667305" LastActivationTimeStamp="11/17/2016 20:08:23" />
+                <LayoutDocument Title="THREAD_ENCODE" ContentId="document_d1f98d8f2582479aa52e0ad487e0d58b" LastActivationTimeStamp="11/17/2016 20:43:05" />
+                <LayoutDocument Title="TXT_INSTREAM" ContentId="document_7580c0e0b73c4e50ab04582610743b7a" LastActivationTimeStamp="11/16/2016 21:34:39" />
+                <LayoutDocument Title="1234" ContentId="document_1a8ee5e947f94edf83aebe049222ff48" LastActivationTimeStamp="11/16/2016 10:58:54" />
+              </LayoutDocumentPane>
+            </LayoutDocumentPaneGroup>
+          </LayoutPanel>
+          <LayoutAnchorablePaneGroup Orientation="Horizontal" DockHeight="168.8" FloatingWidth="220" FloatingHeight="200" FloatingLeft="627.2" FloatingTop="494.4">
+            <LayoutAnchorablePane Id="c432072d-1003-48d7-803f-d067895e5bfd" DockWidth="1.57770927151651*" DockHeight="166.4" FloatingWidth="220" FloatingHeight="200" FloatingLeft="627.2" FloatingTop="494.4">
+              <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="观看变量" IsSelected="True" ContentId="tool_WatchVariablesControl" FloatingLeft="627.2" FloatingTop="494.4" FloatingWidth="220" FloatingHeight="200" LastActivationTimeStamp="11/17/2016 20:00:22" />
+            </LayoutAnchorablePane>
+            <LayoutAnchorablePane DockWidth="0.422290728483492*">
+              <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="断点" IsSelected="True" ContentId="tool_BreakpointsControl" FloatingLeft="829.6" FloatingTop="689.6" FloatingWidth="187.2" FloatingHeight="150.4" LastActivationTimeStamp="11/17/2016 20:47:07" PreviousContainerId="214114ed-ab51-43cb-b9cc-9fbcdc215f77" PreviousContainerIndex="1" />
+              <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="输出" ContentId="tool_OutputWindow" LastActivationTimeStamp="11/16/2016 21:36:47" />
+            </LayoutAnchorablePane>
+          </LayoutAnchorablePaneGroup>
+        </LayoutPanel>
+        <LayoutAnchorablePaneGroup Orientation="Horizontal" DockWidth="352" FloatingWidth="200" FloatingHeight="600" FloatingLeft="884" FloatingTop="428">
+          <LayoutAnchorablePaneGroup Orientation="Vertical">
+            <LayoutAnchorablePane Id="f7549f91-f549-4f6e-9186-cb6ef4c4a70c" FloatingWidth="200" FloatingHeight="600" FloatingLeft="884" FloatingTop="428">
+              <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="发现并替换" IsSelected="True" ContentId="tool_FindReplaceWindow" FloatingLeft="1117.6" FloatingTop="414.4" FloatingWidth="240" FloatingHeight="272" LastActivationTimeStamp="11/17/2016 20:43:24" />
+              <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="通道#0" ContentId="tool_TerminalControl_0" FloatingLeft="1137.6" FloatingTop="434.4" FloatingWidth="172" FloatingHeight="353.6" LastActivationTimeStamp="11/17/2016 20:00:27" />
+              <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="查看VR" ContentId="tool_TableViewerControl" FloatingLeft="884" FloatingTop="428" FloatingWidth="200" FloatingHeight="600" LastActivationTimeStamp="11/17/2016 20:00:28" PreviousContainerId="214114ed-ab51-43cb-b9cc-9fbcdc215f77" PreviousContainerIndex="1" />
+            </LayoutAnchorablePane>
+            <LayoutAnchorablePane Id="aacfe952-a8d6-4134-bfa6-a04a9a20be00" />
+          </LayoutAnchorablePaneGroup>
+          <LayoutAnchorablePane DockWidth="0.749739849729794*" FloatingWidth="200" FloatingHeight="600" FloatingLeft="884" FloatingTop="428">
+            <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="查看Table" IsSelected="True" ContentId="tool_VRViewerControl" FloatingLeft="884" FloatingTop="428" FloatingWidth="200" FloatingHeight="600" LastActivationTimeStamp="11/17/2016 20:49:34" PreviousContainerId="214114ed-ab51-43cb-b9cc-9fbcdc215f77" PreviousContainerIndex="1" />
+          </LayoutAnchorablePane>
+        </LayoutAnchorablePaneGroup>
+      </LayoutPanel>
+    </RootPanel>
+    <TopSide />
+    <RightSide />
+    <LeftSide />
+    <BottomSide />
+    <FloatingWindows>
+      <LayoutFloatingWindow xsi:type="LayoutAnchorableFloatingWindow">
+        <RootPanel Orientation="Horizontal">
+          <LayoutAnchorablePane Id="d10c2637-4413-4bd2-86de-88947e8a2620" FloatingWidth="300" FloatingHeight="300" FloatingLeft="NaN" FloatingTop="NaN" />
+        </RootPanel>
+      </LayoutFloatingWindow>
+      <LayoutFloatingWindow xsi:type="LayoutAnchorableFloatingWindow">
+        <RootPanel Orientation="Horizontal">
+          <LayoutAnchorablePane Id="3ca057a0-a781-44df-ad1d-c6e163317e61" FloatingWidth="300" FloatingHeight="150" FloatingLeft="NaN" FloatingTop="NaN" />
+        </RootPanel>
+      </LayoutFloatingWindow>
+      <LayoutFloatingWindow xsi:type="LayoutAnchorableFloatingWindow">
+        <RootPanel Orientation="Horizontal">
+          <LayoutAnchorablePane Id="158e32e5-10ed-4d7e-b011-3bd5c8dcb70a" FloatingWidth="800" FloatingHeight="480" FloatingLeft="NaN" FloatingTop="NaN" />
+        </RootPanel>
+      </LayoutFloatingWindow>
+      <LayoutFloatingWindow xsi:type="LayoutAnchorableFloatingWindow">
+        <RootPanel Orientation="Horizontal" FloatingWidth="463.2" FloatingHeight="300" FloatingLeft="64" FloatingTop="426.4">
+          <LayoutAnchorablePane Id="455ab664-224c-48c6-9e6d-1a317ef5bae0" FloatingWidth="463.2" FloatingHeight="300" FloatingLeft="64" FloatingTop="426.4" />
+        </RootPanel>
+      </LayoutFloatingWindow>
+      <LayoutFloatingWindow xsi:type="LayoutAnchorableFloatingWindow">
+        <RootPanel Orientation="Horizontal" DockHeight="132" FloatingWidth="501.6" FloatingHeight="384.8" FloatingLeft="609.6" FloatingTop="291.2">
+          <LayoutAnchorablePane Id="90ca19d0-2d04-4af8-93a4-129216ca30a0" DockHeight="132" FloatingWidth="501.6" FloatingHeight="384.8" FloatingLeft="609.6" FloatingTop="291.2" />
+        </RootPanel>
+      </LayoutFloatingWindow>
+    </FloatingWindows>
+    <Hidden>
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="控制器目录" IsSelected="True" ContentId="tool_ControllerDirectoryControl" FloatingLeft="NaN" FloatingTop="NaN" FloatingWidth="300" FloatingHeight="300" LastActivationTimeStamp="11/17/2016 20:41:31" PreviousContainerId="d10c2637-4413-4bd2-86de-88947e8a2620" PreviousContainerIndex="0" />
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="跳转到" IsSelected="True" ContentId="tool_GoToLineWindow" FloatingLeft="NaN" FloatingTop="NaN" FloatingWidth="300" FloatingHeight="150" LastActivationTimeStamp="11/17/2016 19:09:11" PreviousContainerId="3ca057a0-a781-44df-ad1d-c6e163317e61" PreviousContainerIndex="0" />
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="三维可视化" IsSelected="True" ContentId="tool_Visualization3DToolControl" FloatingLeft="NaN" FloatingTop="NaN" FloatingWidth="800" FloatingHeight="480" LastActivationTimeStamp="11/17/2016 19:09:11" PreviousContainerId="158e32e5-10ed-4d7e-b011-3bd5c8dcb70a" PreviousContainerIndex="0" />
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="工具箱" IsSelected="True" ContentId="tool_ToolBoxControl" LastActivationTimeStamp="11/17/2016 19:09:11" PreviousContainerId="aacfe952-a8d6-4134-bfa6-a04a9a20be00" PreviousContainerIndex="0" />
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="搜索结果" ContentId="tool_FindInProjectControl" FloatingLeft="489.6" FloatingTop="282.4" FloatingWidth="501.6" FloatingHeight="384.8" LastActivationTimeStamp="11/17/2016 20:43:00" PreviousContainerId="90ca19d0-2d04-4af8-93a4-129216ca30a0" PreviousContainerIndex="0" />
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="示波器" ContentId="tool_OscilloscopeControl" FloatingLeft="609.6" FloatingTop="291.2" FloatingWidth="501.6" FloatingHeight="384.8" LastActivationTimeStamp="11/17/2016 20:49:31" PreviousContainerId="90ca19d0-2d04-4af8-93a4-129216ca30a0" PreviousContainerIndex="0" />
+      <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="轴参数" ContentId="tool_AxisParametersControl" FloatingLeft="64" FloatingTop="426.4" FloatingWidth="463.2" FloatingHeight="300" LastActivationTimeStamp="11/17/2016 20:47:43" PreviousContainerId="455ab664-224c-48c6-9e6d-1a317ef5bae0" PreviousContainerIndex="0" />
+    </Hidden>
+  </LayoutRoot>
+</MotionPerfectLayout>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Contents>
+  <Content Name="tool_ControllerTreeControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <UIState>
+        <Element Name="__tviItems" IsExpanded="True" />
+        <Element Name="__tviTempItems" IsExpanded="False" />
+        <Element Name="__tviAxes" IsExpanded="False" />
+        <Element Name="__tviMemory" IsExpanded="True" />
+        <Element Name="__tviModules" IsExpanded="False" />
+        <Element Name="__tviConfig" IsExpanded="True" />
+        <Element Name="__tviEnabledFeatures" IsExpanded="True" />
+        <Element Name="__tviCommunications" IsExpanded="True" />
+        <Element Name="__tviDebugInfo" IsExpanded="False" />
+      </UIState>
+    </Tool>
+  </Content>
+  <Content Name="ToolBarSettings_basic">
+    <Content>
+      <ToolBarDebug Band="0" BandIndex="1" />
+      <ToolBarEdit Band="0" BandIndex="0" />
+    </Content>
+  </Content>
+  <Content Name="ToolBarSettings_textFile">
+    <Content>
+      <ToolBarDebug Band="0" BandIndex="1" />
+      <ToolBarEdit Band="0" BandIndex="0" />
+    </Content>
+  </Content>
+  <Content Name="tool_WatchVariablesControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <Variables>
+        <Variable DisplayName="txt_start_pos" ParamName="txt_start_pos" Context="TXT_INSTREAM,20" />
+        <Variable DisplayName="i" ParamName="i" Context="TXT_INSTREAM,20" />
+        <Variable DisplayName="count_command" ParamName="count_command" Context="THREAD_ENCODE,21" />
+        <Variable DisplayName="ii" ParamName="ii" Context="THREAD_ENCODE,21" />
+        <Variable DisplayName="x" ParamName="x" Context="THREAD_ENCODE,21" />
+        <Variable DisplayName="y" ParamName="y" Context="THREAD_ENCODE,21" />
+        <Variable DisplayName="x0" ParamName="x0" Context="THREAD_ENCODE,21" />
+        <Variable DisplayName="y0" ParamName="y0" Context="THREAD_ENCODE,21" />
+        <Variable DisplayName="encode_offset" ParamName="encode_offset" Context="THREAD_ENCODE,21" />
+        <Variable DisplayName="m" ParamName="m" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="txt_start_pos" ParamName="txt_start_pos" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="txt_last_start_position" ParamName="txt_last_start_position" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="i" ParamName="i" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="current_position_of_asc" ParamName="current_position_of_asc" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="count_command" ParamName="count_command" Context="THREAD_ENCODE,15" />
+        <Variable DisplayName="count_command" ParamName="count_command" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="flag_number_of_axis" ParamName="flag_number_of_axis" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="bool_whether_end" ParamName="bool_whether_end" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="multi_thread_num_once" ParamName="multi_thread_num_once" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="encode_offset" ParamName="encode_offset" Context="THREAD_ENCODE,15" />
+        <Variable DisplayName="xl1" ParamName="xl1" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="yl1" ParamName="yl1" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="xl2" ParamName="xl2" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="yl2" ParamName="yl2" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="encode_offset" ParamName="encode_offset" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="i" ParamName="i" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="mov_offset_pos" ParamName="mov_offset_pos" Context="THREAD_MOV,17" />
+        <Variable DisplayName="i_control" ParamName="i_control" Context="THREAD_MOV,17" />
+        <Variable DisplayName="x" ParamName="x" Context="THREAD_MOV,17" />
+        <Variable DisplayName="z" ParamName="z" Context="THREAD_MOV,17" />
+        <Variable DisplayName="ii" ParamName="ii" Context="THREAD_MOV,17" />
+        <Variable DisplayName="i_control" ParamName="i_control" Context="THREAD_MOV,18" />
+        <Variable DisplayName="ii" ParamName="ii" Context="THREAD_MOV,18" />
+        <Variable DisplayName="x" ParamName="x" Context="THREAD_MOV,18" />
+        <Variable DisplayName="z" ParamName="z" Context="THREAD_MOV,18" />
+        <Variable DisplayName="i_of_center" ParamName="i_of_center" Context="THREAD_MOV,18" />
+        <Variable DisplayName="k_of_center" ParamName="k_of_center" Context="THREAD_MOV,18" />
+        <Variable DisplayName="mov_offset_pos" ParamName="mov_offset_pos" Context="THREAD_MOV,18" />
+        <Variable DisplayName="const_offset_zero" ParamName="const_offset_zero" Context="THREAD_CTRL,13" />
+        <Variable DisplayName="const_offset_million" ParamName="const_offset_million" Context="THREAD_ENCODE,15" />
+        <Variable DisplayName="encode_offset_pos" ParamName="encode_offset_pos" Context="THREAD_ENCODE,15" />
+        <Variable DisplayName="encode_real_end_pos" ParamName="encode_real_end_pos" Context="THREAD_MOV" />
+        <Variable DisplayName="count_command" ParamName="count_command" Context="THREAD_ENCODE,15" />
+        <Variable DisplayName="count_command" ParamName="count_command" Context="THREAD_ENCODE,16" />
+        <Variable DisplayName="ii" ParamName="ii" Context="THREAD_ENCODE" />
+        <Variable DisplayName="encode_real_end_pos" ParamName="encode_real_end_pos" Context="THREAD_ENCODE,15" />
+        <Variable DisplayName="ii" ParamName="ii" Context="THREAD_MOV" />
+        <Variable DisplayName="encode_real_end_pos" ParamName="encode_real_end_pos" Context="THREAD_MOV,17" />
+      </Variables>
+    </Tool>
+  </Content>
+  <Content Name="tool_ControllerDirectoryControl">
+    <Tool IsPeriodicUpdateEnabled="true" />
+  </Content>
+  <Content Name="tool_TableViewerControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <Ranges>
+        <Range StartAddress="0" EndAddress="100" IsExpanded="true" />
+        <Range StartAddress="200" EndAddress="300" IsExpanded="true" />
+        <Range StartAddress="10000" EndAddress="10100" IsExpanded="false" />
+        <Range StartAddress="11000" EndAddress="11100" IsExpanded="false" />
+        <Range StartAddress="14000" EndAddress="14100" IsExpanded="false" />
+        <Range StartAddress="15000" EndAddress="15100" IsExpanded="true" />
+      </Ranges>
+    </Tool>
+  </Content>
+  <Content Name="TableRangeEditDlgSettings">
+    <RecentRanges_TABLE>
+      <Range StartAddress="0" EndAddress="0" />
+      <Range StartAddress="0" EndAddress="100" />
+      <Range StartAddress="11000" EndAddress="11100" />
+      <Range StartAddress="15000" EndAddress="15100" />
+      <Range StartAddress="14000" EndAddress="14100" />
+      <Range StartAddress="10000" EndAddress="10100" />
+      <Range StartAddress="200" EndAddress="300" />
+    </RecentRanges_TABLE>
+    <RecentRanges_VR>
+      <Range StartAddress="300000" EndAddress="300100" />
+      <Range StartAddress="200000" EndAddress="200100" />
+      <Range StartAddress="31000" EndAddress="31100" />
+      <Range StartAddress="200000" EndAddress="200200" />
+      <Range StartAddress="11000" EndAddress="11100" />
+      <Range StartAddress="13000" EndAddress="13100" />
+      <Range StartAddress="111000" EndAddress="111000" />
+      <Range StartAddress="111000" EndAddress="111100" />
+      <Range StartAddress="113000" EndAddress="113100" />
+      <Range StartAddress="33000" EndAddress="33100" />
+      <Range StartAddress="30000" EndAddress="30100" />
+      <Range StartAddress="110000" EndAddress="110100" />
+      <Range StartAddress="10000" EndAddress="10100" />
+      <Range StartAddress="130000" EndAddress="130100" />
+      <Range StartAddress="131000" EndAddress="131100" />
+      <Range StartAddress="133000" EndAddress="133100" />
+      <Range StartAddress="34000" EndAddress="34100" />
+      <Range StartAddress="35000" EndAddress="35100" />
+      <Range StartAddress="134000" EndAddress="134100" />
+    </RecentRanges_VR>
+  </Content>
+  <Content Name="tool_VRViewerControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <Ranges>
+        <Range StartAddress="10000" EndAddress="10100" IsExpanded="false" />
+        <Range StartAddress="11000" EndAddress="11100" IsExpanded="false" />
+        <Range StartAddress="13000" EndAddress="13100" IsExpanded="false" />
+        <Range StartAddress="30000" EndAddress="30100" IsExpanded="false" />
+        <Range StartAddress="31000" EndAddress="31100" IsExpanded="false" />
+        <Range StartAddress="33000" EndAddress="33100" IsExpanded="false" />
+        <Range StartAddress="34000" EndAddress="34100" IsExpanded="false" />
+        <Range StartAddress="35000" EndAddress="35100" IsExpanded="false" />
+        <Range StartAddress="110000" EndAddress="110100" IsExpanded="false" />
+        <Range StartAddress="111000" EndAddress="111100" IsExpanded="false" />
+        <Range StartAddress="113000" EndAddress="113100" IsExpanded="false" />
+        <Range StartAddress="130000" EndAddress="130100" IsExpanded="false" />
+        <Range StartAddress="131000" EndAddress="131100" IsExpanded="true" />
+        <Range StartAddress="133000" EndAddress="133100" IsExpanded="true" />
+        <Range StartAddress="134000" EndAddress="134100" IsExpanded="false" />
+        <Range StartAddress="200000" EndAddress="200200" IsExpanded="false" />
+      </Ranges>
+    </Tool>
+  </Content>
+  <Content Name="Document_MC_CONFIG_MC_CONFIG">
+    <Document Title="（全部）" />
+  </Content>
+  <Content Name="tool_GoToLineWindow">
+    <Tool SortByName="false" />
+  </Content>
+  <Content Name="tool_FindReplaceWindow">
+    <Tool MainMode="FindInProject" />
+  </Content>
+  <Content Name="tool_OscilloscopeControl">
+    <Tool>
+      <Config IsMultiTriggerMode="false" IsProgramTriggering="false" MaxChunkSize="8" TimePerDivision="20" ViewMode="XY11" DisplayTextInfo="false" IsExpanded="true" IsAutoHide="false" UseScopeDelay="false" ScopeDelay="0">
+        <ScopeTableInfo SamplesPerDivision="20" PointsPerDivision="10" FitToDisplay="false" IsAutoSamplesDataRangeStartAddress="true" SamplesDataRangeStartAddress="0" UseAutoReArm="true" Use_FIFO="false" FIFOName="MC_SCOPE_FIFO">
+          <BlockDataRanges>
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+            <ScopeTableDataRange StartAddress="0" EndAddress="-1" Step="1" />
+          </BlockDataRanges>
+        </ScopeTableInfo>
+      </Config>
+      <ViewerSettings>
+        <clrBackground>White</clrBackground>
+        <TraceColors Count="4" />
+        <CursorColors Count="4" />
+      </ViewerSettings>
+      <View3DSettings />
+      <Engine3D FillMode="Solid" ShowCS="true" ShowGrid="false">
+        <Camera3D Zoom="1" Perspective="false" Pivot="0,0,0" Orientation="0.3213938,0.5566704,0.6634139,-0.3830222" />
+      </Engine3D>
+      <TraceInfos>
+        <TraceInfo State="Automatic" ParamName="DPOS" ContextIndex="1" NullableContextIndex="1" Range="10" LockRanges="true" Offset="0" AutoCentre="true" />
+        <TraceInfo State="Automatic" ParamName="DPOS" ContextIndex="3" NullableContextIndex="3" Range="5" LockRanges="false" Offset="0" AutoCentre="true" />
+        <TraceInfo State="Off" ParamName="DPOS" ContextIndex="-1" NullableContextIndex="" Range="1" LockRanges="false" Offset="0" AutoCentre="false" />
+        <TraceInfo State="Off" ParamName="DPOS" ContextIndex="-1" NullableContextIndex="" Range="1" LockRanges="false" Offset="0" AutoCentre="false" />
+      </TraceInfos>
+      <CursorInfos>
+        <CursorInfo IsVisible="false" Position="0.2" TraceIndex="-1" />
+        <CursorInfo IsVisible="false" Position="0.4" TraceIndex="-1" />
+        <CursorInfo IsVisible="false" Position="0.6" TraceIndex="-1" />
+        <CursorInfo IsVisible="false" Position="0.8" TraceIndex="-1" />
+      </CursorInfos>
+    </Tool>
+  </Content>
+  <Content Name="tool_Visualization3DToolControl">
+    <Tool>
+      <ModelPath>C:\Program Files (x86)\TrioMotion\MotionPerfectV4\PlugIns\Visualization3D\Models\Scara\Scara.mprobo</ModelPath>
+      <Engine3D FillMode="Solid" ShowCS="true" ShowGrid="false">
+        <Camera3D Zoom="1" Perspective="false" Pivot="0.02954102,178.9519,186.7355" Orientation="0.2945885,0.5497819,0.705882,-0.3356904" />
+      </Engine3D>
+      <JointMaps>
+        <JointMap ModelID="C:\Program Files (x86)\TrioMotion\MotionPerfectV4\PlugIns\Visualization3D\Models\Scara\Scara.mprobo">
+          <JointToAxisMap Axis="-1" ParamName="AXIS_DPOS" Offset="0" Scale="1" JointID="j0" />
+          <JointToAxisMap Axis="-1" ParamName="AXIS_DPOS" Offset="0" Scale="1" JointID="j1" />
+          <JointToAxisMap Axis="-1" ParamName="AXIS_DPOS" Offset="0" Scale="1" JointID="j2" />
+          <JointToAxisMap Axis="-1" ParamName="AXIS_DPOS" Offset="0" Scale="1" JointID="j3" />
+        </JointMap>
+      </JointMaps>
+      <StandardJointDisplay>
+        <StandardJointDisplay ShowLabels="false" ShowHierarchy="false" ShowPointers="false" ModelID="C:\Program Files (x86)\TrioMotion\MotionPerfectV4\PlugIns\Visualization3D\Models\Scara\Scara.mprobo">
+          <LabelUIParams JointID="j0" Pinned="false" PinX="0.42207748219936714" PinY="0.32396390524662311" FloatOffsetX="8" FloatOffsetY="8" />
+          <LabelUIParams JointID="j1" Pinned="false" PinX="0.58772294056566465" PinY="0.39245251367533496" FloatOffsetX="8" FloatOffsetY="8" />
+          <LabelUIParams JointID="j2" Pinned="false" PinX="0.73302548951740509" PinY="0.43915581513126939" FloatOffsetX="8" FloatOffsetY="8" />
+          <LabelUIParams JointID="j3" Pinned="false" PinX="0.7318381007713608" PinY="0.48242073971365695" FloatOffsetX="8" FloatOffsetY="8" />
+        </StandardJointDisplay>
+      </StandardJointDisplay>
+    </Tool>
+  </Content>
+  <Content Name="ToolBarSettings_SFC" />
+  <Content Name="ToolBarSettings_SFC_Child_SFC" />
+  <Content Name="tool_FindInProjectControl">
+    <Tool>
+      <TargetFilter>BASIC|Text|MC Config file|CAM 库|HMI设计|IEC 61131-3任务|IEC 61131-3库</TargetFilter>
+    </Tool>
+  </Content>
+  <Content Name="ToolBarSettings_LD" />
+  <Content Name="tool_AxisParametersControl">
+    <Tool IsPeriodicUpdateEnabled="true">
+      <AxesInUse>
+        <Index>1</Index>
+        <Index>3</Index>
+      </AxesInUse>
+      <Groups>
+        <Group Name="Misc" IsExpanded="false" />
+      </Groups>
+    </Tool>
+  </Content>
+  <Content Name="pos_tool_ControllerTreeControl">
+    <PositionSettings IsDocked="true" AnchorStyle="Left" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_WatchVariablesControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="220" Height="200" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_BreakpointsControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="150" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_OutputWindow">
+    <PositionSettings IsDocked="true" AnchorStyle="Bottom" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_FindReplaceWindow">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="WidthAndHeight" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_TerminalControl_0">
+    <PositionSettings IsDocked="true" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="300" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_TableViewerControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="200" Height="600" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_VRViewerControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="NaN" Top="NaN" Width="200" Height="600" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_OscilloscopeControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Manual" ResizeMode="CanResize" Left="609.6" Top="291.2" Width="501.6" Height="384.8" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_FindInProjectControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="489.6" Top="282.40000000000003" Width="501.6" Height="384.8" DockWidth="300" DockHeight="300" />
+  </Content>
+  <Content Name="pos_tool_AxisParametersControl">
+    <PositionSettings IsDocked="false" AnchorStyle="Right" SizeToContent="Width" ResizeMode="CanResize" Left="64" Top="426.40000000000003" Width="463.20000000000005" Height="300" DockWidth="300" DockHeight="300" />
+  </Content>
+</Contents>
